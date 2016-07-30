@@ -8,7 +8,7 @@
     <em:id>zotero-collection-selector@dsuess.me</em:id>
     <em:version>0.0.1</em:version>
     <em:type>2</em:type>
-    <em:bootstrap>true</em:bootstrap>
+    <em:creator>Daniel Suess</em:creator>
 
 		<em:requires>
 			<Description>
@@ -21,20 +21,20 @@
 		</em:requires>
 
 		<!-- Requires Firefox or Zotero Standalone -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>17.0</em:minVersion>
-        <em:maxVersion>50.*</em:maxVersion>
-			</Description>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>31.0</em:minVersion>
+        <em:maxVersion>45.*</em:maxVersion>
+      </Description>
     </em:targetApplication>
-		<em:targetApplication>
-			<Description>
-				<em:id>zotero@chnm.gmu.edu</em:id>
-				<em:minVersion>3.0</em:minVersion>
-				<em:maxVersion>4.0.*</em:maxVersion>
-			</Description>
-		</em:targetApplication>
+    <em:targetApplication>
+      <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>3.0b1</em:minVersion>
+        <em:maxVersion>4.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
 
   </Description>
 </RDF>

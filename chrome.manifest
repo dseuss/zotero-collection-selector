@@ -1,0 +1,3 @@
+content	zotero-collection-selector	chrome/content/zotero-collection-selector/
+
+overlay	chrome://zotero/content/zoteroPane.xul	chrome://zotero-collection-selector/content/overlay.xul
